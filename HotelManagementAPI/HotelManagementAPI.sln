@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagementAPI", "HotelManagementAPI.csproj", "{E0E56901-E5C5-4386-8FB4-4CBCBE57CA42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagementAPI", "HotelManagementAPI.csproj", "{E0E56901-E5C5-4386-8FB4-4CBCBE57CA42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{D1636909-5BDF-4EA6-A538-74A54665342F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models.csproj", "{D1636909-5BDF-4EA6-A538-74A54665342F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{1F364E1A-D0BE-4646-BDB7-E627B66E245E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "..\Services\Services.csproj", "{1F364E1A-D0BE-4646-BDB7-E627B66E245E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{8547FC43-C652-4FE2-815C-B57CE157D180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Data\Data.csproj", "{8547FC43-C652-4FE2-815C-B57CE157D180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesTests", "..\ServicesTests\ServicesTests.csproj", "{E566ED12-F3A7-46DB-A625-5F5B83449F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8547FC43-C652-4FE2-815C-B57CE157D180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8547FC43-C652-4FE2-815C-B57CE157D180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8547FC43-C652-4FE2-815C-B57CE157D180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E566ED12-F3A7-46DB-A625-5F5B83449F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E566ED12-F3A7-46DB-A625-5F5B83449F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E566ED12-F3A7-46DB-A625-5F5B83449F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E566ED12-F3A7-46DB-A625-5F5B83449F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

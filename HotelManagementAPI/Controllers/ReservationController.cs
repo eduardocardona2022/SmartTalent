@@ -39,7 +39,7 @@ namespace HotelManagementAPI.Controllers
         }
 
         [HttpGet("GetFilterReservations")]
-        public ActionResult<IEnumerable<Reservation>> GetFilterReservations(FilterReservation filter)
+        public ActionResult<IEnumerable<Reservation>> GetFilterReservations(Reservation filter)
         {
             try
             {

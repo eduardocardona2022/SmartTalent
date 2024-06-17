@@ -18,7 +18,7 @@ namespace Services
             Context ??= new HoteldbContext();
             HotelService ??= new HotelService(Context);
             RoomService ??= new RoomService(Context);
-            ReservationService ??= new ReservationService(Context);
+            ReservationService ??= new ReservationService(Context, HotelService, RoomService);
         }
     }
 }

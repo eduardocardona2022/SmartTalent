@@ -16,5 +16,7 @@ public partial class Room
 
     public bool IsEnabled { get; set; }
 
+    public int CapacityOfPeople { get; set; }
+
     public virtual Hotel? Hotel { get; set; }
 }

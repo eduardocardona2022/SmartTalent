@@ -17,6 +17,12 @@ namespace Services
             return _context.Hotels.Where(x=> x.IsEnabled == true).ToList();
         }
 
+        public Hotel GetById(int id)
+        {
+            return _context.Hotels.Where(x => x.Id == id && x.IsEnabled).FirstOrDefault();
+        }
+
+
         public void AddHotel(Hotel hotel)
         {
             _context.Hotels.Add(hotel);

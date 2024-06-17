@@ -15,7 +15,11 @@ namespace Services
 
         public List<Room> GetAllRooms()
         {
-            return _context.Rooms.ToList();
+            return _context.Rooms.Where(x => x.IsEnabled).ToList();
+        }
+        public Room GetById(int id)
+        {
+            return _context.Rooms.Where(x => x.Id == id && x.IsEnabled).FirstOrDefault();
         }
 
         public void AddRoom(Room room) => _context.Rooms.Add(room);
